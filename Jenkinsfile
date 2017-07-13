@@ -16,5 +16,10 @@ pipeline {
         echo 'I am Stazge3'
       }
     }
+         stage('Stage4') {
+      steps {
+        echo 'I am Stazge4'
+      }
+    }
   }
 }
